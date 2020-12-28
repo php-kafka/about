@@ -5,7 +5,8 @@ This shall serve as a source of information for all things related PHP Kafka.
 ## Kafka Integration
 ### Extensions
 - [arnaud-lb/php-rdkafka](https://github.com/arnaud-lb/php-rdkafka)
-### In development
+- [php-kafka/php-kafka](https://github.com/php-kafka/php-kafka)
+### FFI binding
 - [idealo/php-rdkafka-ffi](https://github.com/idealo/php-rdkafka-ffi)
 ### Possibly abandoned
 - [weiboad/kafka-php](https://github.com/weiboad/kafka-php) (pure PHP)
