@@ -44,7 +44,7 @@ Useful for CI / CD for schemas. Its source can be found [here](https://github.co
 
 ## PHP libraries
 ### Description
-These library use the php extensions and try to make it easier to use the extensions  
+These libraries use the php extensions and try to make it easier to use the extensions  
 and give a more fluid interface / simpler usage, etc.
 ### php-enqueue/enqueue-dev
 Is a project that supports many messaging / streaming tranpsorts besides Kafka (php-rdkafka). It integrates easy with  
@@ -55,9 +55,9 @@ in a fast manner. Its source can be found [here](https://github.com/jobcloud/php
 
 ## Avro
 ### Description
-Avro is a way to define schema for your messages. This helps improve service communication.  
-In the strictest form it allows applications not to break as the schema evolves.  
-It is highly advised to use schema for your messages.  
+Avro is a way to define schemas for your messages. This helps improve service communication.  
+In the strictest form it allows applications not to break as the schemas evolves.  
+It is highly advised to use schemas for your messages.  
 You can read more about compatibility [here](https://docs.confluent.io/platform/current/schema-registry/avro.html)
 ### apache/avro
 Official avro support, but no composer integration as of now. The source can be found [here](https://github.com/apache/avro/tree/master/lang/php)
@@ -70,15 +70,20 @@ Fork of the offical apache repository with additional fixes. Its source can be f
 
 ### Avro generator / subschema helpers
 #### Description
-Avro schema can get very complex, especially if you have a nested data structure. It is desirable to  
-seperate these nested structures in sub-schema. To do this, we need a tool, that will merge a schema  
-and all its sub schema into a valid schema.
+Avro schemas can get very complex, especially if you have a nested data structure. It is desirable to  
+seperate these nested structures in sub-schemas. To do this, we need a tool, that will merge a schema  
+and all its sub schemas into a valid schema.
 ### flix-tech/avro-serde-php
 Provides the possibility to create schema with a builder and also to merge schema. Its source can be found [here](https://github.com/flix-tech/avro-serde-php)
 ### php-kafka/php-avro-schema-generator
 Is a small helper library to create a schema from classes (alpha) and to merge schema.  
 Its source can be found [here](https://github.com/php-kafka/php-avro-schema-generator)
 
+## Protobuf
+### Description
+Apache Kafka also supports schema in Protobuf. I have no more info atm, as i am using Avro.  
+Contributions for projects, etc. are welcome
+
 ## Code examples (producer / consumer)
 ### php-kafka/php-kafka-examples
-Provides examples for extensions in usage with libraries. See examples [here]https://github.com/php-kafka/php-kafka-examples)
+Provides examples for extensions in usage with libraries. See examples [here](https://github.com/php-kafka/php-kafka-examples)
