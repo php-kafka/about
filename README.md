@@ -39,7 +39,7 @@ Is a REST client to interact with the Kafka schema registry. Its source can be f
 ### jobcloud/php-kafka-schema-registry-client
 Is a REST client to interact with the Kafka schema registry. Its source can be found [here](https://github.com/jobcloud/php-kafka-schema-registry-client)
 ### jobcloud/php-console-kafka-schema-registry
-Is a project providing symfony console commands to interact with the Kafka schema registry (uses jobcloud/php-kafka-schema-registry-client)  
+Is a project providing symfony console commands to interact with the Kafka schema registry  
 Useful for CI / CD for schemas. Its source can be found [here](https://github.com/jobcloud/php-console-kafka-schema-registry).
 
 ## PHP libraries
