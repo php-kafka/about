@@ -47,11 +47,11 @@ Useful for CI / CD for schemas. Its source can be found [here](https://github.co
 These libraries use the php extensions and try to make it easier to use the extensions  
 and give a more fluid interface / simpler usage, etc.
 ### php-enqueue/enqueue-dev
-Is a project that supports many messaging / streaming tranpsorts besides Kafka (php-rdkafka). It integrates easy with  
-Symfony, Laravel, Yii and other PHP framworks / projects. Its source can be found [here](https://github.com/php-enqueue/enqueue-dev)
+Is a project that supports many messaging / streaming tranpsorts besides Kafka (php-rdkafka).  
+It integrates easy with Symfony, Laravel, Yii and other PHP framworks / projects. Its source can be found [here](https://github.com/php-enqueue/enqueue-dev)
 ### jobcloud/php-kafka-lib
-Is a very lightweight library, to help use php-rdkafka in an easier and more readable way. New features of the extension are adopted  
-in a fast manner. Its source can be found [here](https://github.com/jobcloud/php-kafka-lib)
+Is a very lightweight library, to help use php-rdkafka in an easier and more readable way.  
+New features of the extension are adopted in a fast manner. Its source can be found [here](https://github.com/jobcloud/php-kafka-lib)
 
 ## Avro
 ### Description
