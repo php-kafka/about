@@ -5,10 +5,13 @@ and give everybody a better information about what is available in our ecosystem
 If your project is missing, please feel free to create a PR to add it.
 
 ## Kafka Integration
+
 ### C binding
 [librdkafka](https://github.com/edenhill/librdkafka) is a C binding that is used by many  
 official language bindings of [Confluent](https://www.confluent.io/), e.g. for Go, Python, C#, etc.  
 It is also used in the extensions and bindings for PHP created by the community.
+:warning: many linux distributions are shipped with a very old version of librdkafka.  
+In this case it is advisable to build a more recent version manually.
 
 ### Extensions
 #### arnaud-lb/php-rdkafka
@@ -52,6 +55,9 @@ It integrates easy with Symfony, Laravel, Yii and other PHP framworks / projects
 ### jobcloud/php-kafka-lib
 Is a very lightweight library, to help use php-rdkafka in an easier and more readable way.  
 New features of the extension are adopted in a fast manner. Its source can be found [here](https://github.com/jobcloud/php-kafka-lib)
+#### Visual overview
+![php-kafka-lib visual overview](resources/php-kafka-lib-visual.png)
+(credits to @robsontenorio, thank you!)
 
 ## Avro
 ### Description
