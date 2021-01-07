@@ -87,3 +87,9 @@ Contributions for projects, etc. are welcome
 ## Code examples (producer / consumer)
 ### php-kafka/php-kafka-examples
 Provides examples for extensions in usage with libraries. See examples [here](https://github.com/php-kafka/php-kafka-examples)
+
+## Learning / resources
+- [Confluent blog](https://www.confluent.io/blog) has a lot of good articles
+- [Enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/) a fantastic book that is still very relevant
+- [Designing event driven systems](https://www.confluent.io/designing-event-driven-systems/)
+- [Kafka the definitive guide](https://www.confluent.io/resources/kafka-the-definitive-guide/) deep dive into Apache Kafka
