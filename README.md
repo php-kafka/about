@@ -9,7 +9,7 @@ If your project is missing, please feel free to create a PR to add it.
 ### C binding
 [librdkafka](https://github.com/edenhill/librdkafka) is a C binding that is used by many  
 official language bindings of [Confluent](https://www.confluent.io/), e.g. for Go, Python, C#, etc.  
-It is also used in the extensions and bindings for PHP created by the community.
+It is also used in the extensions and bindings for PHP created by the community.  
 :warning: many linux distributions are shipped with a very old version of librdkafka.  
 In this case it is advisable to build a more recent version manually.
 
