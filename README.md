@@ -15,9 +15,9 @@ In this case it is advisable to build a more recent version manually.
 
 ### Extensions
 #### arnaud-lb/php-rdkafka
-This is the oldest extension and its source can be found [here](https://github.com/arnaud-lb/php-rdkafka).  
+This is a stable extension and its source can be found [here](https://github.com/arnaud-lb/php-rdkafka).  
 Its goal is to stay as close as possible to the API of librdafka.  
-It has a very large spectrum of support:
+It has a very large spectrum of support, and avoids breaking changes:
 - PHP5 - PHP8
 - librdkafka v0.11.6 - latest
 
