@@ -21,8 +21,8 @@ It has a very large spectrum of support, and avoids breaking changes:
 - PHP5 - PHP8
 - librdkafka v0.11.6 - latest
 
-#### php-kafka/php-kafka
-This is a new extension, created by a contributor of php-rdkafka. The source can be found [here](https://github.com/php-kafka/php-kafka).  
+#### php-kafka/php-simple-kafka-client
+This is a new extension, created by a contributor of php-rdkafka. The source can be found [here](https://github.com/php-kafka/php-simple-kafka-client).  
 Its goal is to reduce complexity of the librdkafka API and to move faster in terms of adoption.  
 It will only support PHP versions that are not EOL and librdkafka versions that are not outdated (roughly 1year).  
 
@@ -58,6 +58,12 @@ New features of the extension are adopted in a fast manner. Its source can be fo
 #### Visual overview
 ![php-kafka-lib visual overview](resources/php-kafka-lib-visual.png)
 (credits to @robsontenorio, thank you!)
+### php-kafka/php-simple-kafka-lib
+Is a very lightweight library, to help use php-simple-kafka-client in an easier and more readable way.  
+New features of the extension are adopted in a fast manner. Its source can be found [here](https://github.com/php-kafka/php-simple-kafka-lib)  
+This library is based on the works of [jobcloud/php-kafka-lib](https://github.com/jobcloud/php-kafka-lib)
+#### Visual overview
+![php-simple-kafka-lib visual overview](resources/php-simple-kafka-lib-visual.png)
 
 ## Avro
 ### Description
@@ -99,3 +105,8 @@ Provides examples for extensions in usage with libraries. See examples [here](ht
 - [Enterprise integration patterns](https://www.enterpriseintegrationpatterns.com/) a fantastic book that is still very relevant
 - [Designing event driven systems](https://www.confluent.io/designing-event-driven-systems/)
 - [Kafka the definitive guide](https://www.confluent.io/resources/kafka-the-definitive-guide/) deep dive into Apache Kafka
+- [Microservices and Kafka](https://www.confluent.io/resources/microservices-in-the-apache-kafka-ecosystem/) input on system architecture
+
+## Providers: Managed Kafka
+- [Aiven](https://aiven.io/kafka)
+- [Confluent](https://www.confluent.io/confluent-cloud)
