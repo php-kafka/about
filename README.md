@@ -100,3 +100,7 @@ Provides examples for extensions in usage with libraries. See examples [here](ht
 - [Designing event driven systems](https://www.confluent.io/designing-event-driven-systems/)
 - [Kafka the definitive guide](https://www.confluent.io/resources/kafka-the-definitive-guide/) deep dive into Apache Kafka
 - [Microservices and Kafka](https://www.confluent.io/resources/microservices-in-the-apache-kafka-ecosystem/) input on system architecture
+
+## Providers: Managed Kafka
+- [Aiven](https://aiven.io/kafka)
+- [Confluent](https://www.confluent.io/confluent-cloud)
