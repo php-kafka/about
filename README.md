@@ -58,6 +58,12 @@ New features of the extension are adopted in a fast manner. Its source can be fo
 #### Visual overview
 ![php-kafka-lib visual overview](resources/php-kafka-lib-visual.png)
 (credits to @robsontenorio, thank you!)
+### php-kafka/php-simple-kafka-lib
+Is a very lightweight library, to help use php-simple-kafka-client in an easier and more readable way.  
+New features of the extension are adopted in a fast manner. Its source can be found [here](https://github.com/php-kafka/php-simple-kafka-lib)  
+This library is based on the works of [jobcloud/php-kafka-lib](https://github.com/jobcloud/php-kafka-lib)
+#### Visual overview
+![php-simple-kafka-lib visual overview](resources/php-simple-kafka-lib-visual.png)
 
 ## Avro
 ### Description
