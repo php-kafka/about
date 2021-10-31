@@ -32,6 +32,9 @@ Is an FFI binding that sticks as closely as possibly to the API of php-rdkafka. 
 It also offers Admin API (create, alter topics, etc.), which none of the extensions offer so far.
 
 ### PHP bindings
+#### swoole/phpkafka
+New project that is implemented purely in PHP. Its source can be found [here](https://github.com/swoole/phpkafka)
+
 #### weiboad/kafka-php
 This project was the most popular pure PHP implementation. Its source can be found [here](https://github.com/weiboad/kafka-php).  
 The project has not received any attention in over a year, but there was activity in December 2020, maybe the project will be revived.
